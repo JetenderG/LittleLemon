@@ -7,6 +7,10 @@ from . import models
 
 # Create your views here.
 
+
+def index(request):
+    return render(request,'index.html',{})
+
 class MenuItem(generics.ListCreateAPIView):
     queryset = models.Menu.objects.all()
     serializer_class = serializers.MenuSerializer
