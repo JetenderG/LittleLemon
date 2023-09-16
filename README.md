@@ -19,11 +19,12 @@ Application can:
 
 2. Next make a virtual environment to test the application using python env
 
-3. After that install all the dependencies using pip3 or pip install
+3. Install dependencies using requirement.txt by in the terminal go to project directory and using the code
+       pip install -r requirements.txt
 
-4. Then run python manage.py makemigrations and python manage.py migrate
+5. Then run python manage.py makemigrations and python manage.py migrate
 
-5. Lastly run the server using python manage.py runserver and the applicaton will then run
+6. Lastly run the server using python manage.py runserver and the applicaton will then run
 
 ## Application Urls
 
